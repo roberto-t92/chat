@@ -1,0 +1,21 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="row">    
+    <div class="col-md-7 d-flex justify-content-end">
+        <div class="chat-body">
+            <ul class="chat-ul" id="messageList"></ul>
+        </div>             
+    </div>
+    <div class="col-md-5">
+        <div class="text-center">
+            <input id="userName" class="form-control chat-margin chat-usuario" placeholder="Usuario" />
+            <input id="userMessage" class="form-control chat-margin" placeholder="Mensaje" />
+            <button id="sendMessage" class="btn btn-outline-primary chat-margin">Enviar</button>
+        </div>        
+    </div>    
+</div>
+<script src="~/lib/signalr/signalr.js"></script>
