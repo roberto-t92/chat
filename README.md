@@ -1,9 +1,12 @@
 # Chat App
+Simple Web App that creates a global hub for chat
 
-Tecnologías usadas:
-  - Asp Net Core 2.2
+Framework:
+  - Asp Net Core 2.2<br/>
+  
+Libraries:  
   - SignalR
-  - JavaScript
+  - vanilla JavaScript
 
-Publicación para IIS:
+IIS Publication:
   - bin/Debug/netcoreapp2.2/publish
